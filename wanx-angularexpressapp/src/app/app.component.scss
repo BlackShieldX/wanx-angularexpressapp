@@ -1,0 +1,73 @@
+$dark-color: #222;
+
+header {
+  position: fixed; /* Fix the header at the top */
+  top: 0; /* Position it at the top of the viewport */
+  width: 100%; /* Make it span the full width */
+  background-color: $dark-color; /* Use the CSS variable */
+  //padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for visual effect */
+  z-index: 1000; /* Ensure the header appears above other content */
+
+  nav {
+    //position: fixed; /* Stick the navigation bar to the top */
+    //top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it span the full width */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: $dark-color; /* Use the CSS variable */
+    //color: #fff;
+    //padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+::ng-deep {
+  body {
+    margin: 0px !important; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    //overflow-y: scroll; /* Always display vertical scrollbar */
+  }
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the component takes up the full height of the viewport */
+}
+
+main {
+  flex: 1; /* Allow the content area to grow to fill available space */
+  margin-top: 70px;
+  color: rgba(245, 245, 245, 0.5);
+  background-color: #191919;
+}
+
+footer {
+  background-color: $dark-color; /* Use the CSS variable */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto; /* Push the footer to the bottom */
+}
