@@ -9,5 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="wanx-angularapp" />
+    <orderEntry type="module" module-name="optimum-frontend" />
+    <orderEntry type="module" module-name="wanx-expressapp" />
   </component>
 </module>

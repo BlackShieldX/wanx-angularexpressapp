@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../optimum-frontend/.idea/optimum-frontend.iml" filepath="$PROJECT_DIR$/../optimum-frontend/.idea/optimum-frontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/../wanx-angularapp/.idea/wanx-angularapp.iml" filepath="$PROJECT_DIR$/../wanx-angularapp/.idea/wanx-angularapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wanx-angularexpressapp.iml" filepath="$PROJECT_DIR$/.idea/wanx-angularexpressapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wanx-expressapp/.idea/wanx-expressapp.iml" filepath="$PROJECT_DIR$/../wanx-expressapp/.idea/wanx-expressapp.iml" />
     </modules>
   </component>
 </project>
